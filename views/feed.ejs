@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feed</title>
+    <link rel="stylesheet" href="/stylesheets/feed.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <body>
+      <nav class="nav">
+        <a href="/feed"><i class="ri-pinterest-line"></i></a>
+        <div class="navItems">
+          <a href="/profile"><i class="ri-account-circle-line"></i></a>
+          <a href="/logout"><h5 class="logoutText">Logout</h5></a>
+        </div>
+      </nav>
+      <div class="container">
+        <% posts.forEach(elem => { %>
+          <div class="box">
+            <a
+            href="ttps://oriontralelblog.com/wp-content/uploads/2019/08/IMG_6310.jpg"
+            >
+            <img
+            src="/images/uploads/<%= elem.image %>"
+            alt="image"
+            /></a>
+            <div class="caption"><%= elem.postText %></div>
+          </div>
+        <% }); %>
+      </div>
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+      <script src="app.js"></script>
+    </body>
+  </body>
+</html>

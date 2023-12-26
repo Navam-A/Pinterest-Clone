@@ -1,0 +1,161 @@
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2E2E2E !important;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 70px;
+  width: 100%;
+  background-color: #2E2E2E;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+nav a {
+  padding-top: 15px;
+  text-decoration: none;
+}
+
+nav i {
+  font-size: 35px;
+  color: red;
+  padding-left: 50px;
+  padding-top: 30px;
+  text-decoration: none;
+}
+
+.navItems{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  height: 100%;
+  background-color: #2E2E2E;
+}
+
+.logoutText{
+  padding-left: 20px;
+  font-size: 25px;
+  color: #f30d19;
+}
+
+.mainContainer {
+  color: white;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: start;
+}
+
+.mainCard {
+  background-color: #2E2E2E;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+  background-color: #b0abab;
+  color: black;
+}
+
+.profile-picture {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 20px;
+  position: relative;
+}
+
+.profileEdit {
+  position: relative;
+}
+
+.editSpan {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  background-color: #8a8686c9;
+  position: absolute;
+  bottom: 8px;
+  right: 44%;
+  border-radius: 50%;
+}
+
+.editIcon {
+  width: 100%;
+  height: 100%;
+  color: black;
+}
+
+.profile-picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 24px;
+  margin: 0;
+}
+
+.username {
+  font-size: 18px;
+  color: #bdbdbd;
+  margin: 10px 0;
+}
+
+.tagline,
+.description {
+  color: #9c9898;
+  margin: 10px 0;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 7px 0px 10px;
+  background-color: #f30d19;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #b30a12;
+}
+
+.profileCaption {
+  font-size: 16px;
+  background-color: #ffffff;
+  color: black;
+  font-weight: 800;
+  padding-left: 15px;
+  border-radius: 8px;
+}
+
+.chooseUpload {
+  font-size: 15px;
+  background-color: #bdb9b9;
+  color: black;
+  font-weight: 700;
+  border-radius: 7px;
+}
